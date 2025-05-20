@@ -4,6 +4,7 @@ raw_data_paths:
   daily:   "../data/raw/CBS_2021-2023_Daily_Weather.csv"
   hourly:  "../data/raw/CBS_2021-2023_Hourly_Weather.csv"
   full:    "../data/raw/CBS_2021-2023_Full.csv"
+  wmo_codes: "../data/raw/WMO2011h.csv"
 
 processed_data_paths:
   daily:   "../data/processed/daily_data.parquet"
