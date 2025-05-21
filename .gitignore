@@ -1,1 +1,5 @@
+*.pyc
+*.parquet
+
 data/raw/
+data/processed/
