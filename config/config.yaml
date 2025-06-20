@@ -1,12 +1,25 @@
 # config/settings.yaml
 ---
 raw_data_paths:
+<<<<<<< Updated upstream
   daily             : "../data/raw/CBS_2021-2023_Daily_Weather.csv"
   hourly            : "../data/raw/CBS_2021-2023_Hourly_Weather.csv"
   full              : "../data/raw/CBS_2021-2023_Full.csv"
   wmo_codes         : "../data/raw/WMO2011h.csv"
   washington_outline: "../data/raw/Washington_DC_Boundary.geojson"
   washington_wards  : "../data/raw/Wards_from_2022.geojson"
+=======
+<<<<<<< HEAD
+  daily                     : "../data/raw/CBS_2021-2023_Daily_Weather.csv"
+  hourly                    : "../data/raw/CBS_2021-2023_Hourly_Weather.csv"
+  full                      : "../data/raw/CBS_2021-2023_Full.csv"
+  wmo_codes                 : "../data/raw/WMO2011h.csv"
+  washington_outline        : "../data/raw/Washington_DC_Boundary.geojson"
+  washington_wards          : "../data/raw/Wards_from_2022.geojson"
+  washington_bicycle_lanes  : "../data/raw/Bicycle_Lanes.geojson"
+  washington_metro_stations : "../data/raw/Metro_Stations_Regional.geojson"
+
+>>>>>>> Stashed changes
 
 processed_data_paths:
   daily               : "../data/processed/daily_data.parquet"
@@ -14,4 +27,25 @@ processed_data_paths:
   rides_init          : "../data/processed/rides_init.parquet"
   rides               : "../data/processed/rides.parquet"
   stations            : "../data/processed/stations.parquet"
+<<<<<<< Updated upstream
   stations_wo_outliers: "../data/processed/stations_wo_outliers.parquet"
+=======
+  stations_wo_outliers: "../data/processed/stations_wo_outliers.parquet"
+
+reports_data_paths:
+  network_graph       : "../reports/pyvis_station_graph.html"
+  network_graph_on_map: "../reports/network_map_folium.html"
+=======
+  daily:   "../data/raw/CBS_2021-2023_Daily_Weather.csv"
+  hourly:  "../data/raw/CBS_2021-2023_Hourly_Weather.csv"
+  full:    "../data/raw/CBS_2021-2023_Full.csv"
+  wmo_codes: "../data/raw/WMO2011h.csv"
+
+processed_data_paths:
+  daily:   "../data/processed/daily_data.parquet"
+  hourly:  "../data/processed/hourly_data.parquet"
+  # rides:        "../data/processed/rides.parquet"
+  # rides:        "../data/processed/rides.parquet"
+  # rides:        "../data/processed/rides.parquet"
+>>>>>>> parent of 603f1e4 (lots of stuff)
+>>>>>>> Stashed changes
