@@ -9,7 +9,7 @@ def mask_active_stations(stations, date):
     return (stations.date_start<=date) & (date<=stations.date_end)
 
 def count_active_stations(stations, date):
-    return sum(mask_acitve_stations(stations, date))
+    return sum(mask_active_stations(stations, date))
 
 def calc_density_in_grid(stations_proj, grid_in_dc, date=None):
     '''
@@ -33,7 +33,7 @@ def calc_density_in_grid(stations_proj, grid_in_dc, date=None):
 
     # Calculate density (stations per km²)
     grid_with_counts['density'] = grid_with_counts['station_count'] / grid_with_counts['area_km2']
-    return grid_with_counts
+    return grid_with_counts, stations_in_grid
 
 
 # ----- map station density with folium -----
