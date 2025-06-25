@@ -18,13 +18,6 @@ processed_data_paths:
   stations            : "../data/processed/stations.parquet"
   stations_wo_outliers: "../data/processed/stations_wo_outliers.parquet"
 
-processed_data_paths:
-  daily : "../data/processed/daily_data.parquet"
-  hourly: "../data/processed/hourly_data.parquet"
-  # rides:        "../data/processed/rides.parquet"
-  # rides:        "../data/processed/rides.parquet"
-  # rides:        "../data/processed/rides.parquet"
-
 reports_data_paths:
   network_graph       : "../reports/pyvis_station_graph.html"
   network_graph_on_map: "../reports/network_map_folium.html"
