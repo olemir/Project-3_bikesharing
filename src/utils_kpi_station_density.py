@@ -1,3 +1,5 @@
+"""Module providing functions for the calculation of the station density KPIs"""
+
 import pandas as pd
 import geopandas as gpd
 
@@ -6,6 +8,7 @@ import geopandas as gpd
 # TODO: quite unsecure functions but who the hell cares?
 
 def mask_active_stations(stations, date):
+    # pd.Series(np.array(date, station.shape[0])).between_time(stations.date_start, stations.date_end)
     return (stations.date_start<=date) & (date<=stations.date_end)
 
 def count_active_stations(stations, date):
