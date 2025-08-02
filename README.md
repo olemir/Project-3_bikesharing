@@ -4,8 +4,9 @@ Capital Bikeshare is a state owned company that aims to maximize the use of its 
 
 ## Capital Bikeshare Business Model
 - How to rent a bycicle?
- - bikesharing with stationlogic where poeple have to hand back their bike
- - they may leave their bike outside of a station, but will be charged a fee
+  - Register a user and install the app in order to rent a bicycle. 
+  - Bikesharing with stations: where users have to hand back their bike 
+  - Users may leave their bike outside of a station, but will be charged an additional fee.
 - The company also offers memberships, where users can lend bycicles at a lower rate and enjoy other premium features.
 
 
